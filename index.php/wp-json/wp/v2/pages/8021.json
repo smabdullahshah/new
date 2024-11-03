@@ -1,0 +1,90 @@
+
+
+<style>
+.video-icon-canvas img {
+    width: 100%;
+}
+.video-icon-canvas {
+  position: relative;
+}
+.canvas-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+    width: 80px;
+    height: 80px;
+    background: #FA6C2D;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  transition: all 0.3s;
+}
+.canvas-icon:hover {
+    background: #fff;
+    color: #222;
+    transition: all 0.3s;
+}
+
+.canvas-icon::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  background: #FA6C2DAB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ringa 1.5s infinite;
+}
+.canvas-icon::before {
+content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  background: #FA6C2DAB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ringb 1.5s infinite;
+}
+
+.canvas-icon:hover::after, .canvas-icon:hover::before {
+  animation: none;
+  display: none;
+  transition: all 0.3s;
+}
+
+@keyframes ringa {
+  0% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+  }
+  100% {
+    width: 120px;
+    height: 120px;
+    opacity: 0;
+  }
+}
+@keyframes ringb {
+  0% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+  }
+  100% {
+    width: 160px;
+    height: 160px;
+    opacity: 0;
+  }
+}
+
+
+</style>
+{"id":8021,"date":"2023-07-17T02:05:48","date_gmt":"2023-07-17T02:05:48","guid":{"rendered":"https:\/\/cravallc.com\/?page_id=8021"},"modified":"2024-02-12T17:02:14","modified_gmt":"2024-02-12T17:02:14","slug":"contact-us","status":"publish","type":"page","link":"https:\/\/abmtraders.co.uk\/index.php\/contact-us\/","title":{"rendered":"Contact us"},"content":{"rendered":"\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"8021\" class=\"elementor elementor-8021\">\n\t\t\t\t\t\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-c139092 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"c139092\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fb7490f\" data-id=\"fb7490f\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-4e6d4d0 elementor-widget elementor-widget-heading\" data-id=\"4e6d4d0\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>\/*! elementor - v3.14.0 - 26-06-2023 *\/\n.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}<\/style><h2 class=\"elementor-heading-title elementor-size-default\">Contact us<\/h2>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-232f8de elementor-widget elementor-widget-spacer\" data-id=\"232f8de\" data-element_type=\"widget\" data-widget_type=\"spacer.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>\/*! elementor - v3.14.0 - 26-06-2023 *\/\n.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}<\/style>\t\t<div class=\"elementor-spacer\">\n\t\t\t<div class=\"elementor-spacer-inner\"><\/div>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-1096fd6 elementor-widget elementor-widget-text-editor\" data-id=\"1096fd6\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>\/*! elementor - v3.14.0 - 26-06-2023 *\/\n.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}<\/style>\t\t\t\t<div class=\"elementor-element elementor-element-8a84fdb elementor-widget elementor-widget-heading\" data-id=\"8a84fdb\" data-element_type=\"widget\" data-widget_type=\"heading.default\"><div class=\"elementor-widget-container\"><h2>\u00a0<\/h2><h5>Business Name<\/h5><p>ABM TRADERS LIMITED<\/p><h2 class=\"elementor-heading-title elementor-size-medium\"><img decoding=\"async\" style=\"font-family: var(--default-font-family); font-size: 16px;\" src=\"https:\/\/demo.woostify.com\/fashion1\/wp-content\/uploads\/sites\/27\/2018\/10\/contact-phone.jpg\" alt=\"contact-info-image\" \/><\/h2><\/div><\/div><div class=\"elementor-element elementor-element-23fb120 elementor-widget elementor-widget-text-editor\" data-id=\"23fb120\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><div class=\"woostify-contact-info\"><div class=\"contact-info-list\"><div class=\"contact-info-detail\"><h4><label>Phone Number<\/label><\/h4><p>+44 7378 418066<\/p><\/div><\/div><div class=\"contact-info-list\"><div class=\"contact-info-img\"><img decoding=\"async\" src=\"https:\/\/demo.woostify.com\/fashion1\/wp-content\/uploads\/sites\/27\/2018\/10\/contact-address.jpg\" alt=\"contact-info-image\" \/><\/div><div class=\"contact-info-detail\"><h5><label>Address<\/label><\/h5><p>38 Park Road, Coventry<br \/>CV1 2LD<br \/>West Midlands<br \/>United Kingdom<\/p><\/div><\/div><div class=\"contact-info-list\"><div class=\"contact-info-img\"><img decoding=\"async\" src=\"https:\/\/demo.woostify.com\/fashion1\/wp-content\/uploads\/sites\/27\/2018\/10\/contact-mail.jpg\" alt=\"contact-info-image\" \/><\/div><div class=\"contact-info-detail\"><h4><label>Email<\/label><\/h4><p>info@abmtraders.co.uk<\/p><\/div><\/div><\/div><\/div><\/div>\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t\t\t\t<\/div>\n\t\t","protected":false},"excerpt":{"rendered":"<p>Contact us \u00a0 Business Name ABM TRADERS LIMITED Phone Number +44 7378 418066 Address 38 Park Road, CoventryCV1 2LDWest MidlandsUnited Kingdom Email info@abmtraders.co.uk<\/p>\n","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"","meta":[],"acf":[],"_links":{"self":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages\/8021"}],"collection":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/comments?post=8021"}],"version-history":[{"count":28,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages\/8021\/revisions"}],"predecessor-version":[{"id":8291,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages\/8021\/revisions\/8291"}],"wp:attachment":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/media?parent=8021"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}

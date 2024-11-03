@@ -1,0 +1,90 @@
+
+
+<style>
+.video-icon-canvas img {
+    width: 100%;
+}
+.video-icon-canvas {
+  position: relative;
+}
+.canvas-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+    width: 80px;
+    height: 80px;
+    background: #FA6C2D;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  transition: all 0.3s;
+}
+.canvas-icon:hover {
+    background: #fff;
+    color: #222;
+    transition: all 0.3s;
+}
+
+.canvas-icon::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  background: #FA6C2DAB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ringa 1.5s infinite;
+}
+.canvas-icon::before {
+content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  background: #FA6C2DAB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ringb 1.5s infinite;
+}
+
+.canvas-icon:hover::after, .canvas-icon:hover::before {
+  animation: none;
+  display: none;
+  transition: all 0.3s;
+}
+
+@keyframes ringa {
+  0% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+  }
+  100% {
+    width: 120px;
+    height: 120px;
+    opacity: 0;
+  }
+}
+@keyframes ringb {
+  0% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+  }
+  100% {
+    width: 160px;
+    height: 160px;
+    opacity: 0;
+  }
+}
+
+
+</style>
+{"id":8011,"date":"2023-07-17T02:00:50","date_gmt":"2023-07-17T02:00:50","guid":{"rendered":"https:\/\/cravallc.com\/?page_id=8011"},"modified":"2023-11-28T19:30:54","modified_gmt":"2023-11-28T19:30:54","slug":"shipping-policy","status":"publish","type":"page","link":"https:\/\/abmtraders.co.uk\/index.php\/shipping-policy\/","title":{"rendered":"Shipping Policy"},"content":{"rendered":"\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"8011\" class=\"elementor elementor-8011\">\n\t\t\t\t\t\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4ea1256 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"4ea1256\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-07e9e27\" data-id=\"07e9e27\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-8209a3f elementor-widget elementor-widget-text-editor\" data-id=\"8209a3f\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>\/*! elementor - v3.14.0 - 26-06-2023 *\/\n.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}<\/style>\t\t\t\t<p>Your order will be carefully packaged and delivered wherever is most convenient for you. Otherwise, estimated shipping costs will be indicated when your shopping cart is ready to check out. Delivery takes between 2-4 business days depending on your location. You\u2019ll be able to track your package by using the Shipping Confirmation email that we send as soon as your order begins its journey. Please allow 2 business days to receive your shipment notification email after placing your order.<\/p>\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-c7edd77 elementor-widget elementor-widget-image\" data-id=\"c7edd77\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>\/*! elementor - v3.14.0 - 26-06-2023 *\/\n.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=\".svg\"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}<\/style>\t\t\t\t\t\t\t\t\t\t\t\t<img decoding=\"async\" width=\"640\" height=\"209\" src=\"https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/shipping-policy-1024x334-1-1.png\" class=\"attachment-large size-large wp-image-7999\" alt=\"\" loading=\"lazy\" srcset=\"https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/shipping-policy-1024x334-1-1.png 1024w, https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/shipping-policy-1024x334-1-1-300x98.png 300w, https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/shipping-policy-1024x334-1-1-768x251.png 768w, https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/shipping-policy-1024x334-1-1-600x196.png 600w\" sizes=\"(max-width: 640px) 100vw, 640px\" \/>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-da8787e elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"da8787e\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-607ac43\" data-id=\"607ac43\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-a252f32 elementor-widget elementor-widget-spacer\" data-id=\"a252f32\" data-element_type=\"widget\" data-widget_type=\"spacer.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>\/*! elementor - v3.14.0 - 26-06-2023 *\/\n.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}<\/style>\t\t<div class=\"elementor-spacer\">\n\t\t\t<div class=\"elementor-spacer-inner\"><\/div>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t\t\t\t<\/div>\n\t\t","protected":false},"excerpt":{"rendered":"<p>Your order will be carefully packaged and delivered wherever is most convenient for you. Otherwise, estimated shipping costs will be indicated when your shopping cart is ready to check out. Delivery takes between 2-4 business days depending on your location. You\u2019ll be able to track your package by using the Shipping Confirmation email that we [&hellip;]<\/p>\n","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"","meta":[],"acf":[],"_links":{"self":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages\/8011"}],"collection":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/comments?post=8011"}],"version-history":[{"count":7,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages\/8011\/revisions"}],"predecessor-version":[{"id":8201,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages\/8011\/revisions\/8201"}],"wp:attachment":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/media?parent=8011"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}

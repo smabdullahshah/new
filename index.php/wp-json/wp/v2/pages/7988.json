@@ -1,0 +1,90 @@
+
+
+<style>
+.video-icon-canvas img {
+    width: 100%;
+}
+.video-icon-canvas {
+  position: relative;
+}
+.canvas-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+    width: 80px;
+    height: 80px;
+    background: #FA6C2D;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  transition: all 0.3s;
+}
+.canvas-icon:hover {
+    background: #fff;
+    color: #222;
+    transition: all 0.3s;
+}
+
+.canvas-icon::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  background: #FA6C2DAB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ringa 1.5s infinite;
+}
+.canvas-icon::before {
+content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  background: #FA6C2DAB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ringb 1.5s infinite;
+}
+
+.canvas-icon:hover::after, .canvas-icon:hover::before {
+  animation: none;
+  display: none;
+  transition: all 0.3s;
+}
+
+@keyframes ringa {
+  0% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+  }
+  100% {
+    width: 120px;
+    height: 120px;
+    opacity: 0;
+  }
+}
+@keyframes ringb {
+  0% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+  }
+  100% {
+    width: 160px;
+    height: 160px;
+    opacity: 0;
+  }
+}
+
+
+</style>
+{"id":7988,"date":"2023-07-17T01:49:20","date_gmt":"2023-07-17T01:49:20","guid":{"rendered":"https:\/\/cravallc.com\/?page_id=7988"},"modified":"2023-11-28T19:31:36","modified_gmt":"2023-11-28T19:31:36","slug":"about-us","status":"publish","type":"page","link":"https:\/\/abmtraders.co.uk\/index.php\/about-us\/","title":{"rendered":"About us"},"content":{"rendered":"\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"7988\" class=\"elementor elementor-7988\">\n\t\t\t\t\t\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-590db38 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"590db38\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e0cea7e\" data-id=\"e0cea7e\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-35eee3a elementor-widget elementor-widget-spacer\" data-id=\"35eee3a\" data-element_type=\"widget\" data-widget_type=\"spacer.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>\/*! elementor - v3.14.0 - 26-06-2023 *\/\n.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}<\/style>\t\t<div class=\"elementor-spacer\">\n\t\t\t<div class=\"elementor-spacer-inner\"><\/div>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2192353 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"2192353\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3fd2467\" data-id=\"3fd2467\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-1f72a21 elementor-widget elementor-widget-heading\" data-id=\"1f72a21\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>\/*! elementor - v3.14.0 - 26-06-2023 *\/\n.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}<\/style><h2 class=\"elementor-heading-title elementor-size-default\">ABOUT US<\/h2>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-5f36e93 elementor-widget elementor-widget-text-editor\" data-id=\"5f36e93\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>\/*! elementor - v3.14.0 - 26-06-2023 *\/\n.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}<\/style>\t\t\t\t<div class=\"elementor-element elementor-element-ab5c043 elementor-widget elementor-widget-heading\" data-id=\"ab5c043\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">ABM TRADERS&nbsp; is one of the best in sports fashion. We are completely aware of what customers require in terms of good prices and service. We are here to provide you with all of the value you need. All of our products are available at incredible prices. How do we do this? We own a powerful purchasing team that sources our 100% genuine and brand-new items from all around the world. Our purchasing team cultivates long-term relationships with suppliers and collaborates closely with them to keep product costs low. We will ensure that you receive all of the savings.<\/div>\n<\/div>\n<div class=\"elementor-element elementor-element-bb2fdcb elementor-widget elementor-widget-heading\" data-id=\"bb2fdcb\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">We want you to buy with confidence and trust at ABM TRADERS, so we respond to your questions swiftly and with expert product knowledge. We offer a trackable and state of art delivery service inside the United Kingdom. We manage all aspects of shipment processing so you don\u2019t have to worry about hidden costs.<\/div>\n<\/div>\n<div class=\"elementor-element elementor-element-5195c4f elementor-widget elementor-widget-spacer\" data-id=\"5195c4f\" data-element_type=\"widget\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">&nbsp;<\/div>\n<\/div>\n<\/div>\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-8407951 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"8407951\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8580c33\" data-id=\"8580c33\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-f20610a elementor-widget elementor-widget-heading\" data-id=\"f20610a\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">KNOW MORE ABOUT OUR VISION<\/h2>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-18528a7 elementor-widget elementor-widget-text-editor\" data-id=\"18528a7\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p>Our vision is to create a seamless and intuitive online shopping experience for our customers. We strive to offer a vast and diverse selection of products that cater to our customers&#8217; needs and preferences. We aim to provide exceptional customer service and ensure that our customers feel valued and satisfied with their purchases. Our goal is to become the go-to destination for online shopping, offering a reliable and convenient platform that delivers a personalized and enjoyable experience for all.<\/p>\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6dea81f\" data-id=\"6dea81f\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-e4604a6 elementor-widget elementor-widget-image\" data-id=\"e4604a6\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>\/*! elementor - v3.14.0 - 26-06-2023 *\/\n.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=\".svg\"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}<\/style>\t\t\t\t\t\t\t\t\t\t\t\t<img decoding=\"async\" width=\"640\" height=\"389\" src=\"https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/about-us-page.png\" class=\"attachment-large size-large wp-image-7993\" alt=\"\" loading=\"lazy\" srcset=\"https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/about-us-page.png 742w, https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/about-us-page-300x182.png 300w, https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/about-us-page-600x365.png 600w\" sizes=\"(max-width: 640px) 100vw, 640px\" \/>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-9c908fd elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"9c908fd\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7cbb6c0\" data-id=\"7cbb6c0\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-7c6752b elementor-widget elementor-widget-spacer\" data-id=\"7c6752b\" data-element_type=\"widget\" data-widget_type=\"spacer.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-spacer\">\n\t\t\t<div class=\"elementor-spacer-inner\"><\/div>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t\t\t\t<\/div>\n\t\t","protected":false},"excerpt":{"rendered":"<p>ABOUT US ABM TRADERS&nbsp; is one of the best in sports fashion. We are completely aware of what customers require in terms of good prices and service. We are here to provide you with all of the value you need. All of our products are available at incredible prices. How do we do this? We [&hellip;]<\/p>\n","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"elementor_header_footer","meta":[],"acf":[],"_links":{"self":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages\/7988"}],"collection":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/comments?post=7988"}],"version-history":[{"count":16,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages\/7988\/revisions"}],"predecessor-version":[{"id":8204,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages\/7988\/revisions\/8204"}],"wp:attachment":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/media?parent=7988"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}

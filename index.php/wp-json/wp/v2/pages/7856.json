@@ -1,0 +1,90 @@
+
+
+<style>
+.video-icon-canvas img {
+    width: 100%;
+}
+.video-icon-canvas {
+  position: relative;
+}
+.canvas-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+    width: 80px;
+    height: 80px;
+    background: #FA6C2D;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  transition: all 0.3s;
+}
+.canvas-icon:hover {
+    background: #fff;
+    color: #222;
+    transition: all 0.3s;
+}
+
+.canvas-icon::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  background: #FA6C2DAB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ringa 1.5s infinite;
+}
+.canvas-icon::before {
+content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  background: #FA6C2DAB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ringb 1.5s infinite;
+}
+
+.canvas-icon:hover::after, .canvas-icon:hover::before {
+  animation: none;
+  display: none;
+  transition: all 0.3s;
+}
+
+@keyframes ringa {
+  0% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+  }
+  100% {
+    width: 120px;
+    height: 120px;
+    opacity: 0;
+  }
+}
+@keyframes ringb {
+  0% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+  }
+  100% {
+    width: 160px;
+    height: 160px;
+    opacity: 0;
+  }
+}
+
+
+</style>
+{"id":7856,"date":"2022-06-12T06:18:21","date_gmt":"2022-06-12T06:18:21","guid":{"rendered":"https:\/\/emerce.themepreview.xyz\/sports\/?page_id=11"},"modified":"2023-07-17T02:04:53","modified_gmt":"2023-07-17T02:04:53","slug":"refund-policy","status":"publish","type":"page","link":"https:\/\/abmtraders.co.uk\/index.php\/refund-policy\/","title":{"rendered":"Refund Policy"},"content":{"rendered":"\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"7856\" class=\"elementor elementor-7856\">\n\t\t\t\t\t\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-e5da09c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"e5da09c\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0f04d0c\" data-id=\"0f04d0c\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-4e6d4d0 elementor-widget elementor-widget-heading\" data-id=\"4e6d4d0\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>\/*! elementor - v3.14.0 - 26-06-2023 *\/\n.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}<\/style><h2 class=\"elementor-heading-title elementor-size-default\">The Customer Received A Wrong Product<\/h2>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-1096fd6 elementor-widget elementor-widget-text-editor\" data-id=\"1096fd6\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>\/*! elementor - v3.14.0 - 26-06-2023 *\/\n.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}<\/style>\t\t\t\t<p>\u2022 If a wrong product is delivered to the customer, we will get it picked up for free.<br \/>\u2022 Once the wrong product is received by us, We will dispatch the correct product or refund the amount within 7 working days.<br \/>\u2022\u00a0The product should be unused and the packaging should not be damaged.<br \/>\u2022 The product should be sealed in its original product packaging.<br \/>\u2022 All supporting documentation such as receipt of purchase, price tags, labels, and warranty card as well as all accessories should be dispatched with the product.<\/p>\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7305ad7\" data-id=\"7305ad7\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-ddb15b1 elementor-widget elementor-widget-image\" data-id=\"ddb15b1\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<style>\/*! elementor - v3.14.0 - 26-06-2023 *\/\n.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=\".svg\"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}<\/style>\t\t\t\t\t\t\t\t\t\t\t\t<img decoding=\"async\" width=\"476\" height=\"360\" src=\"https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/360_F_407236734_EX9WA2hXtUJameY8UMGrTEG3KChqbRuf-2-1.jpg\" class=\"attachment-large size-large wp-image-8017\" alt=\"\" loading=\"lazy\" srcset=\"https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/360_F_407236734_EX9WA2hXtUJameY8UMGrTEG3KChqbRuf-2-1.jpg 476w, https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/360_F_407236734_EX9WA2hXtUJameY8UMGrTEG3KChqbRuf-2-1-300x227.jpg 300w\" sizes=\"(max-width: 476px) 100vw, 476px\" \/>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-63a78e8 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"63a78e8\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-33b1391\" data-id=\"33b1391\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-da78886 elementor-widget elementor-widget-image\" data-id=\"da78886\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img decoding=\"async\" width=\"476\" height=\"360\" src=\"https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/360_F_407236734_EX9WA2hXtUJameY8UMGrTEG3KChqbRuf-2-1.jpg\" class=\"attachment-large size-large wp-image-8017\" alt=\"\" loading=\"lazy\" srcset=\"https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/360_F_407236734_EX9WA2hXtUJameY8UMGrTEG3KChqbRuf-2-1.jpg 476w, https:\/\/abmtraders.co.uk\/wp-content\/uploads\/2023\/07\/360_F_407236734_EX9WA2hXtUJameY8UMGrTEG3KChqbRuf-2-1-300x227.jpg 300w\" sizes=\"(max-width: 476px) 100vw, 476px\" \/>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8e92dbb\" data-id=\"8e92dbb\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-d84ed17 elementor-widget elementor-widget-heading\" data-id=\"d84ed17\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">The Customer receives damaged goods<\/h2>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0c4077f elementor-widget elementor-widget-text-editor\" data-id=\"0c4077f\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p>\u00a0Customers may claim refund if they receive damaged goods however they must provide video proof of this.<\/p><p>\u2022\u00a0Customers are advised\u00a0to make video while unwrapping and unboxing their product from delivery packaging. This video will be used as a proof that customer received\u00a0damaged good.<\/p><p>\u2022 If video proof is not provided or video is made after the product has been unboxed then customer will not be entitled to a refund.<\/p>\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t\t\t\t<\/div>\n\t\t","protected":false},"excerpt":{"rendered":"<p>The Customer Received A Wrong Product \u2022 If a wrong product is delivered to the customer, we will get it picked up for free.\u2022 Once the wrong product is received by us, We will dispatch the correct product or refund the amount within 7 working days.\u2022\u00a0The product should be unused and the packaging should not [&hellip;]<\/p>\n","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"","meta":[],"acf":[],"_links":{"self":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages\/7856"}],"collection":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/comments?post=7856"}],"version-history":[{"count":10,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages\/7856\/revisions"}],"predecessor-version":[{"id":8020,"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/pages\/7856\/revisions\/8020"}],"wp:attachment":[{"href":"https:\/\/abmtraders.co.uk\/index.php\/wp-json\/wp\/v2\/media?parent=7856"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}
